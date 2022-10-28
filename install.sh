@@ -22,7 +22,7 @@ for i in git proot unstable-repo qemu-user-x86-64; do
 done
 printf "${red} >> ${yellow} Cloning repo ...\n"
 printf "${yellow}\n"
-git clone git://github.com/vestineo/df-on-termux.git
+git clone https://github.com/number27th/df-on-termux.git
 mkdir -p /data/data/com.termux/files/usr/opt/
 mv /data/data/com.termux/files/home/df-on-termux /data/data/com.termux/files/usr/opt/df_sandbox
 mv /data/data/com.termux/files/usr/opt/df_sandbox/dwarf-fortress /data/data/com.termux/files/usr/bin/
